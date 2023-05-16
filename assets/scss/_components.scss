@@ -91,3 +91,45 @@
     color: #000 !important;
   }
 }
+
+section.flexbox {
+  height: 800px;
+  background-color: v.$white;
+  border: {
+    style: dashed;
+    width: 5px;
+    color: #000;
+    radius: 10px;
+  }
+  .box {
+    background-color: v.$tertiary;
+    width: 100px;
+    height: 100px;
+    color: v.$white;
+    line-height: 100px;
+    text-align: center;
+    font: {
+      size: 4em;
+    }
+  }
+}
+
+section.flexbox {
+  // grid
+  display: flex;
+  // flex-direction: column;
+  gap: 20px;
+  // justify-content = start end center
+  // align-items = start end and center
+  // justify-content: center;
+  // align-items: center;
+  // justify-content: space-between;
+  // justify-content: space-around;
+  // justify-content: space-evenly;
+  // align-items: center;
+  // flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  // align-items: center;
+  align-content: center;
+}

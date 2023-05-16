@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1700px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -103,6 +103,32 @@ body {
 .home header a {
   /* 0 1  2*/
   color: #000 !important;
+}
+
+section.flexbox {
+  height: 800px;
+  background-color: #e3d0d0;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: #000;
+  border-radius: 10px;
+}
+section.flexbox .box {
+  background-color: #262613;
+  width: 100px;
+  height: 100px;
+  color: #e3d0d0;
+  line-height: 100px;
+  text-align: center;
+  font-size: 4em;
+}
+
+section.flexbox {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .about h1,
