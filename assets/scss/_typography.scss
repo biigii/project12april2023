@@ -1,0 +1,17 @@
+@use "./variables" as v;
+
+.about,
+.contact {
+  h1 {
+    margin-bottom: 50px;
+    font: {
+      family: v.$font;
+      size: 3em;
+      weight: 100;
+    }
+    text: {
+      align: center;
+      transform: uppercase;
+    }
+  }
+}
